@@ -3,7 +3,8 @@ import java.util.*;
 
 public class ZadanieString {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
         int n;
         String string = "";
@@ -12,7 +13,8 @@ public class ZadanieString {
         n = scanner.nextInt();
         scanner.nextLine();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             System.out.print(i + 1 + ": ");
             String string1 = scanner.nextLine();
             if (string1.length() > string.length())

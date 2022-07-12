@@ -1,7 +1,8 @@
 package zadanie2string;
 
 
-public class Zadanie2String {
+public class Zadanie2String 
+{
 
    public static void main(String[] args)
     {
